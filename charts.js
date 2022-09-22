@@ -108,7 +108,7 @@ function buildCharts(sample) {
     var trace = {
       x: toptenotulabels,
       y: toptenotuids,
-      type: "bar"
+      type: "bubble"
     };
     var data = [trace];
     // Deliverable 1 Step 10. Use Plotly to plot the data with the layout. 
